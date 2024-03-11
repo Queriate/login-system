@@ -1,0 +1,61 @@
+.box-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-login {
+    background: rgba(0, 0, 0, .6);
+    color: var(--primary-3);
+}
+
+.box-login {
+    padding: 5%;
+    gap: 10px;
+    border-radius: .6rem;
+    box-shadow: .5rem .5rem 1rem #000000e1;
+}
+
+.box-login h1{
+    font-size: 3rem;
+}
+
+/* ****** fim box-login ****** */
+
+.box-input-login {
+    padding: 1rem;
+    border: none;
+    border-radius: .6rem;
+}
+
+.box-input-login::-webkit-inner-spin-button,
+.box-input-login::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+.box-input-login:focus {
+    outline: 1px solid var(--primary-1);
+}
+
+/* ****** fim box-input ****** */
+
+.btn-login{
+    cursor: pointer;
+    border: none;
+    border-radius: .3rem;
+}
+
+.btn-login{
+    padding: .5rem;
+}
+
+.btn-login{
+    background-color: var(--primary-1);
+    color: var(--primary-3);
+    transition: background .3s;
+}
+
+.btn-login:hover{
+    background: var(--primary-2);
+
+    font-weight: lighter;
+}
