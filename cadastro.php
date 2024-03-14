@@ -12,7 +12,7 @@
 <body class="body-form">
 
 <?php 
-include('config.php');
+include('conexao.php');
 
 if($_SERVER['REQUEST_METHOD']=='POST'){
 
@@ -23,6 +23,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
   $data_nasc_sql = date('Y-m-d', strtotime($data_nascimento));
   $senha = htmlspecialchars($_POST['senha']);
   $conf_senha = htmlspecialchars($_POST['conf_senha']);
+  $genero = htmlspecialchars($_POST['genero']); // Novo: obter o gênero
   
   if( $senha === $conf_senha){
 
@@ -35,7 +36,8 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     }else{
 
       $hashsenha = password_hash($senha, PASSWORD_DEFAULT);
-      $sql = "INSERT INTO usuario(nome,email,phone,data_nascimento,senha) VALUES ('$nome','$email','$phone','$data_nasc_sql','$hashsenha')";
+      // Inserindo o gênero na tabela usuario
+      $sql = "INSERT INTO usuario(nome,email,phone,data_nascimento,senha,genero) VALUES ('$nome','$email','$phone','$data_nasc_sql','$hashsenha','$genero')";
 
       $retorno=$con->query($sql);
 
@@ -109,7 +111,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
       <input style="margin: 0 0 1rem 0;"  type="submit" name="submit" id="submit" value="Cadastrar">
 
-      <a class="link_login" href="tela_inicial_login.php" style="margin: 0 0 1rem ">Voltar</a>
+      <a class="link_login" href="login.php" style="margin: 0 0 1rem ">Voltar</a>
 
     </fieldset>
   </form>
