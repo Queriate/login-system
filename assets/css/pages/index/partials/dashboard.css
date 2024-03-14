@@ -1,0 +1,38 @@
+.dashboard {
+    color: var(--primary-3);
+
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 1.5rem;
+    box-shadow: .5rem .5rem 1rem #000000e1;
+    padding: 5rem;
+}
+
+.dashboard h1 {
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.dashboard p {
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.logout-btn {
+    background-color: var(--primary-1);
+    color: var(--primary-3);
+    border: none;
+    padding: 
+    .5rem 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem 0 0 0;
+    transition: background .3s;
+
+}
+
+.logout-btn:hover {
+    background: var(--primary-2);
+
+    }
