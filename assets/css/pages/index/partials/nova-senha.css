@@ -1,0 +1,24 @@
+.box-nova-senha {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-nova-senha {
+    background: rgba(0, 0, 0, .6);
+    color: var(--primary-3);
+}
+
+.box-nova-senha {
+    padding: 5%;
+    gap: 10px;
+    border-radius: .6rem;
+    box-shadow: .5rem .5rem 1rem #000000e1;
+}
+
+.box-nova-senha h1{
+    font-size: 3rem;
+}
+
+.box-nova-senha .input-box{
+  margin: 0 0 1rem 0;
+}
