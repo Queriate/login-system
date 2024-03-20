@@ -1,0 +1,24 @@
+.box-recuperacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-recuperacao {
+  background: rgba(0, 0, 0, .6);
+  color: var(--primary-3);
+}
+
+.box-recuperacao {
+  padding: 5%;
+  gap: 10px;
+  border-radius: .6rem;
+  box-shadow: .5rem .5rem 1rem #000000e1;
+}
+
+.box-recuperacao h1{
+  font-size: 3rem;
+}
+
+.box-recuperacao .input-box{
+  margin: 0 0 1rem 0;
+}
