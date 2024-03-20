@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="box-nova-senha">
             <h1>Nova Senha</h1>
 
-            <!-- <?php if (isset($erro)) echo "<p style='color: red;'>$erro</p>"; ?> -->
+            <?php if (isset($erro)) echo "<p style='color: red;'>$erro</p>"; ?>
 
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                 <div class="input-box">
