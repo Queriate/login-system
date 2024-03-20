@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <div style="display: flex; justify-content: space-between; font-size: 1.09rem;">
 
-                    <a style="text-decoration: none; color: var(--primary-3);" href="senha_esquecida/trocar_senha.php">Esqueceu a senha</a>
+                    <a style="text-decoration: none; color: var(--primary-3);" href="senha_esquecida/recuperar_senha.php">Esqueceu a senha</a>
 
                     <a style="text-decoration: none; color: var(--primary-3);" href="cadastro.php">Cadastrar-se</a>
 
