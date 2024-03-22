@@ -56,13 +56,13 @@ Caso o usuario esqueça sua senha, ele podera alterala:
 Para executar o sistema, siga estas etapas:
 
 1. Certifique-se de ter o XAMPP instalado em sua máquina. Você pode baixá-lo em https://www.apachefriends.org/pt_br/index.html.
+2. Clone este repositório para o diretório `htdocs` dentro do diretório de instalação do XAMPP.
+3. Inicie os serviços Apache e MySQL através do painel de controle do XAMPP.
 
 <p align="center">
   <img src="assets/files/imgs/readme/xampp.png">
 </p>
 
-2. Clone este repositório para o diretório `htdocs` dentro do diretório de instalação do XAMPP.
-3. Inicie os serviços Apache e MySQL através do painel de controle do XAMPP.
 4. Importe o arquivo SQL fornecido pelo MySQL Workbench para criar o banco de dados necessário.
 5. Acesse o sistema através do seu navegador web digitando `http://localhost/nome_do_diretorio_do_projeto` na barra de endereço.
 
